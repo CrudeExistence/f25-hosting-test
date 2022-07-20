@@ -6,3 +6,4 @@ const buttonAlert = () => {
 }
 
 button.addEventListener('click', buttonAlert)
+
