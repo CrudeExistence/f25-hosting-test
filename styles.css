@@ -9,6 +9,7 @@ section{
     margin-left: 100px;
     margin-right: 100px;
     padding: 100px 50px;
+    height: 1000px;
 }
 
 h1{
@@ -28,11 +29,14 @@ header{
 }
 
 footer{
-    width: 100%;
+    width: 100vw;
     background-color: black;
     border: blue 3px dashed;
-    border-radius: 5px;
+    border-radius: 20px;
     margin: auto;
+    position: fixed;
+    bottom: -10px;
+    left: -3px;
 }
 
 .footer{
@@ -41,5 +45,6 @@ footer{
     left: 30px;
     text-align: center;
     text-shadow: white 1px 1px 2px;
+
 }
 

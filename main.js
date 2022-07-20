@@ -1,9 +1,15 @@
 
 let button = document.querySelector('button')
+let imgBtn = document.querySelector('img')
 
 const buttonAlert = () => {
-    alert('My button worked! Yay! Celebrate or something.')
+    alert('Nope. None for you. :)')
 }
 
-button.addEventListener('click', buttonAlert)
+const buttonEffect = () => {
+    //do this thing
+}
 
+
+button.addEventListener('click', buttonAlert)
+imgBtn.addEventListener('hover', buttonEffect)
